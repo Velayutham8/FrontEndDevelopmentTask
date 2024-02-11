@@ -1,0 +1,384 @@
+.header-text {
+  position: relative;
+  width: 143px;
+  height: 24px;
+  /* left: calc(50% - 143px / 2 - 0.5px); */
+  /* top: 39px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  padding: 8px;
+
+  color: #ff6b82;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51.69px;
+}
+
+.left-line {
+  position: relative;
+  width: 91.65px;
+  height: 0px;
+  /* left: 59px; */
+  /* top: 51.59px; */
+
+  border: 0.903803px solid #c8c8c8;
+}
+
+.right-line {
+  position: relative;
+  width: 96.63px;
+  height: 0px;
+  /* right: 522px; */
+  /* top: 51.59px; */
+
+  border: 0.903803px solid #c8c8c8;
+}
+
+input {
+  /* position: absolute; */
+  /* width: 9.04px; */
+  /* height: 9.04px; */
+  /* left: 83.71px; */
+  /* top: 112.56px; */
+  accent-color: rgb(250, 75, 59);
+}
+
+.unit {
+  /* 1 Unit */
+
+  /* position: absolute; */
+  width: 38px;
+  height: 17px;
+  /* left: 108.23px; */
+  /* top: 101.88px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-left: 12px;
+}
+
+.offer {
+  /* 10% Off */
+
+  /* position: absolute; */
+  width: 44px;
+  height: 15px;
+  /* left: 162px; */
+  /* top: 104px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  /* text-align: center; */
+
+  color: #ffffff;
+  margin-left: 15px;
+  /* position: absolute; */
+  /* width: 55px; */
+  /* height: 17px; */
+  /* left: 157px; */
+  /* top: 103px; */
+  padding: 3.5px;
+
+  background: #ff6b82;
+  border-radius: 1px;
+}
+
+.unit-text {
+  /* Standard Price */
+
+  /* position: absolute; */
+  width: 84px;
+  height: 15px;
+  /* left: 108.23px; */
+  /* top: 121.77px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-left: 12px;
+}
+
+.discounted-price {
+  /* $10.00 USD */
+
+  /* position: absolute; */
+  width: 82px;
+  height: 18px;
+  /* left: 293px;
+top: 104px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-top: 2px;
+}
+
+.original-price {
+  /* $24.00 USD */
+
+  /* position: absolute; */
+  width: 58px;
+  height: 12px;
+  /* left: 293px; */
+  /* top: 123px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration-line: line-through;
+
+  color: #000000;
+
+  opacity: 0.3;
+}
+
+.body-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 25em;
+}
+
+.card1 {
+  margin-bottom: 20px;
+}
+.card2 {
+  margin-bottom: 20px;
+}
+.card3 {
+  margin-bottom: 20px;
+}
+
+.left-section {
+  display: flex;
+}
+
+.unit-upper {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  /* height: 34px; */
+}
+
+.price-wrapper {
+  display: grid;
+  grid-template-rows: 10px 0px;
+  justify-content: center;
+}
+
+.popular-text {
+  /* MOST POPULAR */
+
+  /* width: 97px; */
+  /* height: 15px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 0px;
+  padding: 5px;
+}
+
+.popular-wrapper {
+  /* top: 70px;
+  right: 23em; */
+
+  /* position: absolute; */
+  width: 119px;
+  height: 26px;
+  margin-top: 0px;
+
+  background: #ff6b82;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.right-section {
+  padding: 0px;
+  margin: 0px;
+}
+
+.dropdown {
+  display: flex;
+  /* justify-content: baseline; */
+  align-items: center;
+}
+
+.dropdown-svg {
+  position: absolute;
+  z-index: 2;
+}
+.dropdown-icon {
+  margin-left: 42px;
+  margin-bottom: 8px;
+  z-index: 3;
+  /* margin-right: 8px; */
+}
+.dropdown > span {
+  margin-top: 2px;
+  margin-left: 5px;
+  z-index: 3;
+}
+
+.expandable-content {
+  padding: 15px;
+  display: grid;
+  /* grid-row: ; */
+  grid-template-columns: 30px 100px 100px;
+  grid-template-rows: 30px 30px 30px;
+  /* margin-left: 73.5px; */
+  justify-content: center;
+  /* display: none; */
+}
+
+.expandable-content-hide {
+  padding: 15px;
+  display: grid;
+  /* grid-row: ; */
+  grid-template-columns: 30px 100px 100px;
+  grid-template-rows: 30px 30px 30px;
+  /* margin-left: 73.5px; */
+  justify-content: center;
+  display: none;
+}
+
+.expandable-content > p {
+  /* #1 */
+
+  width: 10px;
+  height: 11px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.03803px;
+  line-height: 11px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.box-expand {
+  z-index: -2;
+
+  box-sizing: border-box;
+
+  width: 341px;
+  height: fit-content;
+
+  background: #fff9fa;
+  border: 2px solid #ff6b82;
+}
+
+.box-upper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  /* Rectangle 43 */
+
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 341px;
+  height: 74.11px;
+  /* left: 59px; */
+  /* top: 82px; */
+
+  background: #ffffff;
+  border: 0.903803px solid #c8c8c8;
+
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.colour-text > p {
+  /* Colour */
+
+  /* position: absolute; */
+  width: 31px;
+  height: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.94183px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.size-text > p {
+  /* Size */
+
+  /* position: absolute; */
+  width: 20px;
+  height: 12px;
+  /* left: 125.23px; */
+  /* top: 245.07px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.94183px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.dropdown > span {
+  /* S */
+  width: 7px;
+  height: 13px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.8456px;
+  line-height: 13px;
+
+  color: #000000;
+}
